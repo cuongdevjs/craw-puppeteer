@@ -1,0 +1,26 @@
+{
+  "name": "craw-puppeteer",
+  "version": "1.0.0",
+  "description": "funny",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NGUYEN MANH CUONG",
+  "license": "ISC",
+  "dependencies": {
+    "image-downloader": "^3.4.2",
+    "puppeteer": "^1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CuongStf/craw-puppeteer.git"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "bugs": {
+    "url": "https://github.com/CuongStf/craw-puppeteer/issues"
+  },
+  "homepage": "https://github.com/CuongStf/craw-puppeteer#readme"
+}
