@@ -9,7 +9,7 @@
   "author": "NGUYEN MANH CUONG",
   "license": "ISC",
   "dependencies": {
-    "image-downloader": "^3.4.2",
+    "image-downloader": "^4.0.3",
     "puppeteer": "^1.17.0"
   },
   "repository": {
