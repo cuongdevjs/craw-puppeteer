@@ -4,13 +4,16 @@
   "description": "funny",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "NGUYEN MANH CUONG",
   "license": "ISC",
   "dependencies": {
     "image-downloader": "^3.4.2",
-    "puppeteer": "^1.17.0"
+    "puppeteer": "^1.17.0",
+    "@snyk/protect": "latest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/CuongStf/craw-puppeteer/issues"
   },
-  "homepage": "https://github.com/CuongStf/craw-puppeteer#readme"
+  "homepage": "https://github.com/CuongStf/craw-puppeteer#readme",
+  "snyk": true
 }
